@@ -19,7 +19,11 @@ dependencies:
     sdk: flutter
   flutter_map: ^8.1.0
   flutter_rotation_sensor: ^0.1.0
-  geolocator: ^14.0.0
+  geolocator: 
+    git:
+      url: https://github.com/super-novey/flutter-geolocator.git
+      path: geolocator
+      ref: main
   latlong2: ^0.9.1
 
 dev_dependencies:
